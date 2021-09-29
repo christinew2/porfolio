@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import { Route } from 'react-router-dom'
+import React from 'react';
 import './App.css';
+
+// Components + Pages
+import NavBar from '../../components/NavBar/NavBar';
 
 const App = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        Christine Wei's Portfolio
-      </header>
+      <NavBar></NavBar>
     </div>
   );
 }
