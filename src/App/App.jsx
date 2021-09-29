@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
 
-// Components + Pages
+// Components
 import NavBar from '../components/NavBar/NavBar';
 import { Switch, Route } from 'react-router';
+
+// Pages
+import Landing from '../pages/Landing/Landing'
+import About from '../pages/About/About'
+import Work from '../pages/Work/Work'
 
 const App = () => {
 
@@ -13,17 +18,17 @@ const App = () => {
 
       <Switch>
         <Route exact path="/">
-          <h1>Landing</h1>
+          <Landing />
         </Route>
 
         <Route path="/work">
-          <h1>Work</h1>
+          <Work />
         </Route>
 
         <Route path="/about">
-          <h1>About</h1>
+          <About />
         </Route>
-        
+
       </Switch>
 
     </div>
