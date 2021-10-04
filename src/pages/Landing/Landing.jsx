@@ -6,11 +6,13 @@ import code from '../../assets/animations/animation.json'
 const Landing = () => {
     return (
         <>
-
-        <h1>LANDING PAGE</h1>
-        <div className="animation-container">
-            <Animation animationData={code}></Animation>
-        </div>
+            <div className="landing-left">
+                <h1>Hello!</h1>
+                <p>My name is Christine blah</p>
+            </div>
+            <div className="landing-right">
+                <Animation animationData={code}></Animation>
+            </div>
         </>
     );
 }
