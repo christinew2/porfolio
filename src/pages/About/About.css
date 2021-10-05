@@ -1,0 +1,22 @@
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+}
+
+.about-me-img {
+    width: 1000px;
+    height: auto;
+}
+
+.about-me-img > img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.links > a > img{
+    height: 24px;
+}
